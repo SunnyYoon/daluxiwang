@@ -1,0 +1,50 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+.scroll-pane{  position:relative; overflow:hidden; height:455px; width:690px;}
+.w100{ width:100%; overflow:hidden;}
+.jspScrollable .w100{ width:658px; overflow:hidden;}
+.jspContainer{overflow: hidden;position: relative;}
+.jspPane{position: absolute;}
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 12px;
+	height: 100%;
+	background: #3c5e9b;
+}
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 12px;
+	background:#3c5e9b;
+}
+.jspVerticalBar *,.jspHorizontalBar *{margin: 0;padding: 0;}
+.jspCap{display:none;}
+.jspHorizontalBar .jspCap{float: left;}
+.jspTrack{background: #3c5e9b;position: relative;}
+.jspDrag{background:#1c2134;position: relative;top: 0;left: 0;cursor: pointer;}
+.jspHorizontalBar .jspTrack,.jspHorizontalBar .jspDrag{float: left;height: 100%;}
+.jspHorizontalBar .jspTrack{background:#3c5e9b;}
+.jspHorizontalBar .jspDrag{background:#1c2134; position:relative;}
+.jspDragTop,.jspDragBottom{ height:21px; background:none; width:100%; overflow:hidden;}
+.jspDragBottom{ position:absolute; bottom:0px; background:none;}
+.jspDragLeft,.jspDragRight{ width:12px; height:100%;background:none; overflow:hidden; position:absolute;}
+.jspDragRight{ width:12px; right:0px;background:none; overflow:hidden;}
+.jspArrow{text-indent: -20000px;display: block;cursor: pointer;}
+.jspArrow.jspDisabled{cursor: default;}
+.jspVerticalBar .jspArrow{height: 5px;}
+.jspArrowUp{background:url(../images/jspArrowUp.gif) no-repeat;}
+.jspArrowDown{background:url(../images/jspArrowDown.gif) no-repeat;}
+.jspHorizontalBar .jspArrow{width: 0px;float: left;height: 100%;}
+.jspVerticalBar .jspArrow:focus{outline: none;}
+.jspCorner{background: url(../images/jspTrack2.gif) repeat-x scroll center top transparent;float: left;height: 100%;}
+.blackscroll .jspDrag{ background-color:#414141;}
